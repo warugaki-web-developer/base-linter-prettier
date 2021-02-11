@@ -1,8 +1,9 @@
 module.exports = {
   extends: [
-    'stylelint-config-recommended',
+    'stylelint-config-standard',
     'stylelint-config-rational-order',
     'stylelint-config-prettier'
   ],
+  ignoreFiles: ['**/*.md'],
   rules: {}
 }

@@ -1,4 +1,7 @@
 {
+  // VS CodeのデフォルトLintを無効に
+  "css.validate": false,
+  "scss.validate": false,
   /* Linter and Formatter */
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
@@ -9,7 +12,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
-  // // Prettier対象外言語
+  // Prettier対象外言語
   "prettier.disableLanguages": ["markdown"],
   "prettier.prettierPath": "./node_modules/prettier"
 }
