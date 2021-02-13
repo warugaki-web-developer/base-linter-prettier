@@ -1,5 +1,5 @@
 {
-  "name": "base-prettier-eslint-stylelint-pre-commit",
+  "name": "development-linter-prettier",
   "version": "1.0.0",
   "private": true,
   "scripts": {
