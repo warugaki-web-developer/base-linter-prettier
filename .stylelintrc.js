@@ -1,9 +1,14 @@
 module.exports = {
+  plugins: ['stylelint-scss'],
   extends: [
     'stylelint-config-standard',
     'stylelint-config-rational-order',
     'stylelint-config-prettier'
   ],
   ignoreFiles: ['**/*.md'],
-  rules: {}
+  rules: {
+    // recommended rules for scss
+    'at-rule-no-unknown': null,
+    'scss/at-rule-no-unknown': true
+  }
 }
