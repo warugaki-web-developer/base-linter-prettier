@@ -2,7 +2,7 @@ module.exports = {
   plugins: ['stylelint-scss'],
   extends: [
     'stylelint-config-standard',
-    'stylelint-config-rational-order',
+    'stylelint-config-recess-order',
     'stylelint-config-prettier'
   ],
   ignoreFiles: ['**/*.md'],
