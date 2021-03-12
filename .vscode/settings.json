@@ -16,6 +16,5 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Prettier対象外言語
-  "prettier.disableLanguages": ["markdown"],
-  "prettier.prettierPath": "./node_modules/prettier"
+  "prettier.disableLanguages": ["markdown"]
 }
