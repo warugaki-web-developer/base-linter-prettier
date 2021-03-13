@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "lint:css": "stylelint ./**/*.{css,scss}",
+    "lint:css": "stylelint **/*.{css,scss}",
     "lint-fix:css": "prettier --write **/*.{css,scss} && stylelint --fix **/*.{css,scss}",
     "lint:js": "eslint **/*.js",
     "lint-fix:js": "prettier --write **/*.js && eslint --fix **/*.js",
@@ -16,12 +16,10 @@
   },
   "lint-staged": {
     "*.css": [
-      "npm run lint-fix:css",
-      "npm run lint:css"
+      "npm run lint-fix:css"
     ],
     "*.js": [
-      "npm run lint-fix:js",
-      "npm run lint:js"
+      "npm run lint-fix:js"
     ]
   },
   "devDependencies": {
