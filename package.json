@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "lint:css": "stylelint **/*.{css,scss}",
-    "lint-fix:css": "prettier --write **/*.{css,scss} && stylelint --fix **/*.{css,scss}",
-    "lint:js": "eslint **/*.js",
-    "lint-fix:js": "prettier --write **/*.js && eslint --fix **/*.js",
+    "lint:css": "stylelint ./**/*.{css,scss}",
+    "lint-fix:css": "prettier --write ./**/*.{css,scss} && stylelint --fix ./**/*.{css,scss}",
+    "lint:js": "eslint ./**/*.js",
+    "lint-fix:js": "prettier --write ./**/*.js && eslint --fix ./**/*.js",
     "lint-staged": "lint-staged"
   },
   "husky": {
