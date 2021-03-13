@@ -12,9 +12,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   // Prettier対象外言語
   "prettier.disableLanguages": ["markdown"]
 }
