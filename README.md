@@ -1,4 +1,4 @@
-# base-linter-prettier
+# base-source-code-format
 
 基本ソースコードフォーマットのリポジトリー
 

@@ -16,8 +16,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": false,
-  // Prettier対象外言語
-  "prettier.disableLanguages": ["markdown"],
   // 言語毎の設定
   "[json]": {
     "editor.codeActionsOnSave": {
