@@ -16,10 +16,10 @@
   },
   "lint-staged": {
     "*.css": [
-      "npm run lint-fix:css"
+      "npm run lint:css"
     ],
     "*.js": [
-      "npm run lint-fix:js"
+      "npm run lint:js"
     ]
   },
   "devDependencies": {
